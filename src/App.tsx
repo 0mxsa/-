@@ -1,8 +1,7 @@
-// src/App.tsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Sidebar } from './components/Layout/Sidebar';
 import LifeMap from './components/Map/LifeMap';
-import DailyDashboard from './components/Dashboard/DailyDashboard';
+import DailyDashboard from './components/dashboard/dailydashboard';
 import TimelineView from './components/Timeline/TimelineView';
 import { AIAssistantWidget } from './components/AI/AIAssistantWidget';
 
